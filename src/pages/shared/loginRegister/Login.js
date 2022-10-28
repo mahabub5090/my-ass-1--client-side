@@ -52,7 +52,7 @@ const Login = () => {
     <>
       <Header />
       <section>
-        <div className="w-full max-w-md p-8  rounded-xl text-white bg-blue-600 mx-auto my-10">
+        <div className="w-full max-w-xl p-8  rounded-xl text-white bg-blue-600 mx-auto my-10">
           <h1 className="text-2xl font-bold text-center">Please Login In Here...</h1>
           <p className="text-red-400 text-center">{error}</p>
           <form
