@@ -72,7 +72,7 @@ const Register = () => {
       <Header />
       <section>
         <div className="w-full max-w-xl p-8 space-y-3 rounded-xl text-gray-100 bg-blue-600  mx-auto my-10">
-          <h1 className="text-2xl font-bold text-center">Register Here...</h1>
+          <h1 className="text-2xl font-bold text-center">Please Register Here...</h1>
           <p className="text-red-400 text-center">{error}</p>
           <form
             onSubmit={handleRegister}

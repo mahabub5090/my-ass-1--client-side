@@ -16,7 +16,7 @@ const SideNav = () =>
 
   return (
     <div>
-      <h1 className="my-6 text-4xl ">All Courses Categories...</h1>
+      <h1 className="my-6 text-4xl text-center ">All Courses Categories...</h1>
       <div className="bg-blue-100 p-4">
         { categories.map( ( category ) => (
           <Category key={ category?.id } category={ category } />
